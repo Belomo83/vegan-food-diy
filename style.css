@@ -1,0 +1,71 @@
+body {
+	font-family: 'Montserrat', sans-serif; 
+}
+
+.container {
+	background: linear-gradient(to right, rgba(250, 245, 245, 0.959), white, rgb(110, 226, 110), green); 
+	padding: 10px 0;
+	position: relative;
+	margin:0 auto;
+}
+
+nav {
+	position: absolute; 
+	top: 110px; 
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #033805;
+	font-size: 25px;	 
+}
+
+nav a:hover {
+	color: rgb(61, 233, 61);
+}	
+
+.titulo-receita {
+	text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.imagem-ingredientes-receita {
+	display: flex; 
+	padding-left: 30%;
+}
+
+.ingredientes {
+	text-align: right;
+}
+
+.imagem-receita{
+	width: 25%;
+	box-shadow: 7px 7px 7px 0px #c6cfc3;
+	border-radius: 7%;
+}
+
+.instrucao-receita{
+	text-align: center;
+	text-size-adjust: top;
+}
+
+footer {
+	text-align: center;
+	background-color: #eff3ed9c ;
+	padding: 10px;	
+}
+
+.logo-footer {
+	width: 10%;
+}
+
+.link-footer {
+	text-decoration: none;	
+}
